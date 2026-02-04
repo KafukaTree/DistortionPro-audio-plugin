@@ -23,7 +23,7 @@
 
 DistortionPro is a professional VST3/AU audio plugin that provides four distinct distortion algorithms. Built with JUCE 7, it features real-time visualization, a comprehensive preset system, and high-DPI support.
 
-**Developed by 卡夫卡**
+**Developed by 卡夫卡的春树**
 
 ---
 
@@ -33,10 +33,8 @@ Pre-compiled VST3 plugin available in the [Releases](https://github.com/KafukaTr
 
 ```
 releases/
-└── DistortionPro-Windows-v1.0.0.zip    # Windows VST3
+└── DistortionPro.vst3    # Windows VST3
 ```
-
-**Installation**: Extract the ZIP file and copy `DistortionPro.vst3` to your DAW's VST3 folder.
 
 ### Features
 
@@ -257,10 +255,10 @@ DistortionPro 是一款专业的 VST3/AU 音频插件，提供四种独特的失
 
 ```
 releases/
-└── DistortionPro-Windows-v1.0.0.zip    # Windows VST3
+└── DistortionPro.vst3   # Windows VST3
 ```
 
-**安装方法**：解压 ZIP 文件，将 `DistortionPro.vst3` 复制到你的 DAW 的 VST3 文件夹即可。
+**安装方法**：将 `DistortionPro.vst3` 复制到你的 DAW 的 VST3 文件夹即可。
 
 ### 功能特性
 
