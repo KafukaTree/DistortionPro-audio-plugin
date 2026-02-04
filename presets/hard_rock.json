@@ -1,0 +1,13 @@
+{
+  "name": "Hard Rock",
+  "category": "Factory",
+  "type": "distortion",
+  "parameters": {
+    "drive": 0.75,
+    "tone": 0.4,
+    "output": 0.7,
+    "mix": 1.0,
+    "depth": 0.3,
+    "attack": 0.7
+  }
+}

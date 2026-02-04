@@ -1,0 +1,22 @@
+# Build directories
+build/
+CMakeBuild/
+cmake-build-*/
+
+# IDE files
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.ncb
+
+# JUCE framework (optional - large)
+JUCE/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cache
+*.cache/

@@ -1,0 +1,13 @@
+{
+  "name": "British Crunch",
+  "category": "Factory",
+  "type": "distortion",
+  "parameters": {
+    "drive": 0.55,
+    "tone": 0.5,
+    "output": 0.75,
+    "mix": 1.0,
+    "depth": 0.4,
+    "attack": 0.6
+  }
+}

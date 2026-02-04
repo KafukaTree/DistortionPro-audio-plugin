@@ -1,0 +1,13 @@
+{
+  "name": "Studio Warmth",
+  "category": "Factory",
+  "type": "saturation",
+  "parameters": {
+    "drive": 0.25,
+    "tone": 0.7,
+    "output": 0.85,
+    "mix": 1.0,
+    "depth": 0.7,
+    "attack": 0.8
+  }
+}

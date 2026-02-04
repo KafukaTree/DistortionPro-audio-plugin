@@ -1,0 +1,13 @@
+{
+  "name": "Clean Boost",
+  "category": "Factory",
+  "type": "overdrive",
+  "parameters": {
+    "drive": 0.2,
+    "tone": 0.8,
+    "output": 0.9,
+    "mix": 1.0,
+    "depth": 0.8,
+    "attack": 0.9
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Fuzzy Math",
+  "category": "Factory",
+  "type": "fuzz",
+  "parameters": {
+    "drive": 0.85,
+    "tone": 0.3,
+    "output": 0.65,
+    "mix": 1.0,
+    "depth": 0.6,
+    "attack": 0.3
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Vintage Overdrive",
+  "category": "Factory",
+  "type": "overdrive",
+  "parameters": {
+    "drive": 0.4,
+    "tone": 0.6,
+    "output": 0.8,
+    "mix": 1.0,
+    "depth": 0.5,
+    "attack": 0.5
+  }
+}
