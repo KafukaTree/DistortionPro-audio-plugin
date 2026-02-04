@@ -6,10 +6,9 @@
 
 ## Demo Video / 演示视频
 
-<!-- GitHub doesn't support local video files. Replace YOUR_VIDEO_ID with your YouTube video ID -->
-[![DistortionPro Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+**【自制开源失真插件 DistortionPro】**
 
-*[Click to watch on YouTube / 点击在 YouTube 观看](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)*
+[Watch on Bilibili / 点击在哔哩哔哩观看](https://www.bilibili.com/video/BV1R8foBNEya/)
 
 
 **Developer / 开发者**: 卡夫卡的春树 (KafukaTree)
