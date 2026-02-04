@@ -6,15 +6,16 @@
 
 ## Demo Video / 演示视频
 
-[![DistortionPro Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+<!-- distpro.mp4 -->
+<video width="100%" controls>
+  <source src="distpro.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 *Click above to watch the plugin in action / 点击上方观看插件演示*
 
----
 
 **Developer / 开发者**: 卡夫卡的春树 (KafukaTree)
-
-*---*
 
 [English](#english) | [中文](#中文)
 
@@ -36,9 +37,10 @@ Pre-compiled VST3 plugin available in the [Releases](https://github.com/KafukaTr
 
 ```
 releases/
-├── DistortionPro-v1.0.0-Windows.zip    # Windows VST3
-└── DistortionPro-v1.0.0-macOS.zip      # macOS VST3/AU
+└── DistortionPro-Windows-v1.0.0.zip    # Windows VST3
 ```
+
+**Installation**: Extract the ZIP file and copy `DistortionPro.vst3` to your DAW's VST3 folder.
 
 ### Features
 
@@ -161,8 +163,10 @@ DistortionPro/
 ├── CMakeLists.txt
 ├── README.md
 ├── LICENSE
-├── releases/                    # Pre-built VST3 plugins
-│   └── DistortionPro-*.zip
+├── distpro.mp4                           # Demo video
+├── releases/                             # Pre-built VST3 plugin
+│   ├── README.md
+│   └── DistortionPro.vst3/               # Windows VST3 plugin
 ├── src/
 │   ├── dsp/
 │   │   ├── DistortionAlgorithms.h/cpp    # Core distortion algorithms
@@ -257,9 +261,10 @@ DistortionPro 是一款专业的 VST3/AU 音频插件，提供四种独特的失
 
 ```
 releases/
-├── DistortionPro-v1.0.0-Windows.zip    # Windows VST3
-└── DistortionPro-v1.0.0-macOS.zip      # macOS VST3/AU
+└── DistortionPro-Windows-v1.0.0.zip    # Windows VST3
 ```
+
+**安装方法**：解压 ZIP 文件，将 `DistortionPro.vst3` 复制到你的 DAW 的 VST3 文件夹即可。
 
 ### 功能特性
 
@@ -382,8 +387,10 @@ DistortionPro/
 ├── CMakeLists.txt
 ├── README.md
 ├── LICENSE
-├── releases/                    # 预编译 VST3 插件
-│   └── DistortionPro-*.zip
+├── distpro.mp4                           # 演示视频
+├── releases/                             # 预编译 VST3 插件
+│   ├── README.md
+│   └── DistortionPro.vst3/               # Windows VST3 插件
 ├── src/
 │   ├── dsp/
 │   │   ├── DistortionAlgorithms.h/cpp    # 核心失真算法

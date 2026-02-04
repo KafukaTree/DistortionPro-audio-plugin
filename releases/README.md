@@ -1,23 +1,22 @@
-# DistortionPro Pre-built Releases
+# DistortionPro - Windows VST3 Plugin
 
-This folder contains pre-compiled VST3 plugins for direct download and use.
+## How to Install
 
-## Download Links
+1. Copy the `DistortionPro.vst3` folder to your DAW's VST3 directory:
 
-- **Windows VST3**: [DistortionPro-v1.0.0-Windows.zip](DistortionPro-v1.0.0-Windows.zip)
-- **macOS VST3/AU**: [DistortionPro-v1.0.0-macOS.zip](DistortionPro-v1.0.0-macOS.zip)
+   **Common VST3 Paths:**
+   - `C:\Program Files\VST3\`
+   - `C:\Program Files\Common Files\VST3\`
+   - Your DAW may have a custom VST3 folder (check DAW preferences)
 
-## Installation
+2. Restart your DAW and scan for new plugins
 
-### Windows
-1. Extract the ZIP file
-2. Copy `DistortionPro.vst3` to `C:\Program Files\VST3\`
-
-### macOS
-1. Extract the ZIP file
-2. Copy `DistortionPro.vst3` to `~/Library/Audio/Plug-Ins/VST3/`
-3. Or copy `DistortionPro.component` to `~/Library/Audio/Plug-Ins/Components/` for AU format
+3. Find "DistortionPro" in your plugin list
 
 ---
 
-*DistortionPro - Created by 卡夫卡的春树*
+**Developer / 开发者**: 卡夫卡的春树 (KafukaTree)
+
+---
+
+*DistortionPro - A Professional VST3 Distortion Plugin*
