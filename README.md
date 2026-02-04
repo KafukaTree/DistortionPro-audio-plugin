@@ -6,13 +6,10 @@
 
 ## Demo Video / 演示视频
 
-<!-- distpro.mp4 -->
-<video width="100%" controls>
-  <source src="distpro.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<!-- GitHub doesn't support local video files. Replace YOUR_VIDEO_ID with your YouTube video ID -->
+[![DistortionPro Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
-*Click above to watch the plugin in action / 点击上方观看插件演示*
+*[Click to watch on YouTube / 点击在 YouTube 观看](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)*
 
 
 **Developer / 开发者**: 卡夫卡的春树 (KafukaTree)
