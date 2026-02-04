@@ -1,5 +1,21 @@
 # DistortionPro
 
+*A Professional VST3/AU Distortion Plugin*
+
+---
+
+## Demo Video / 演示视频
+
+[![DistortionPro Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
+
+*Click above to watch the plugin in action / 点击上方观看插件演示*
+
+---
+
+**Developer / 开发者**: 卡夫卡的春树 (KafukaTree)
+
+*---*
+
 [English](#english) | [中文](#中文)
 
 ---
@@ -9,6 +25,20 @@
 ### Overview
 
 DistortionPro is a professional VST3/AU audio plugin that provides four distinct distortion algorithms. Built with JUCE 7, it features real-time visualization, a comprehensive preset system, and high-DPI support.
+
+**Developed by 卡夫卡**
+
+---
+
+### Download Ready-to-Use VST3
+
+Pre-compiled VST3 plugin available in the [Releases](https://github.com/KafukaTree/DistortionPro-audio-plugin/releases) section.
+
+```
+releases/
+├── DistortionPro-v1.0.0-Windows.zip    # Windows VST3
+└── DistortionPro-v1.0.0-macOS.zip      # macOS VST3/AU
+```
 
 ### Features
 
@@ -39,6 +69,12 @@ DistortionPro is a professional VST3/AU audio plugin that provides four distinct
   - User preset save/load
   - Preset import/export (JSON)
   - A/B comparison
+
+---
+
+*Crafted with care by 卡夫卡的春树*
+
+---
 
 ### Requirements
 
@@ -94,6 +130,8 @@ Copy the built `.vst3` folder to:
 C:\Program Files\VST3\
 ```
 
+Or install from [Releases](https://github.com/KafukaTree/DistortionPro-audio-plugin/releases)
+
 #### macOS VST3/AU
 
 ```bash
@@ -110,12 +148,21 @@ cp -r build/DistortionPro.component ~/Library/Audio/Plug-Ins/Components/
 cp -r build/DistortionPro.vst3 ~/.vst3/
 ```
 
+---
+
+*Made with love by 卡夫卡的春树*
+
+---
+
 ### Directory Structure
 
 ```
 DistortionPro/
 ├── CMakeLists.txt
 ├── README.md
+├── LICENSE
+├── releases/                    # Pre-built VST3 plugins
+│   └── DistortionPro-*.zip
 ├── src/
 │   ├── dsp/
 │   │   ├── DistortionAlgorithms.h/cpp    # Core distortion algorithms
@@ -134,6 +181,12 @@ DistortionPro/
 │       └── PresetManager.h/cpp           # Preset management
 └── presets/                              # Factory preset files
 ```
+
+---
+
+*卡夫卡的春树 - DistortionPro Audio Plugin*
+
+---
 
 ### Parameters Reference
 
@@ -166,6 +219,12 @@ DistortionPro/
 }
 ```
 
+---
+
+*卡夫卡的春树 - Developer & Creator*
+
+---
+
 ### License
 
 MIT License - See LICENSE file for details.
@@ -174,6 +233,11 @@ MIT License - See LICENSE file for details.
 
 - Built with [JUCE Framework](https://juce.com/)
 - VST3 SDK included in JUCE
+- **Developer**: 卡夫卡的春树 (KafukaTree)
+
+---
+
+*DistortionPro - Created by 卡夫卡的春树*
 
 ---
 
@@ -182,6 +246,20 @@ MIT License - See LICENSE file for details.
 ### 简介
 
 DistortionPro 是一款专业的 VST3/AU 音频插件，提供四种独特的失真算法。基于 JUCE 7 构建，具有实时可视化、完整预设系统和高 DPI 支持。
+
+**开发者：卡夫卡的春树**
+
+---
+
+### 下载即用版 VST3
+
+预编译的 VST3 插件可在 [Releases](https://github.com/KafukaTree/DistortionPro-audio-plugin/releases) 下载。
+
+```
+releases/
+├── DistortionPro-v1.0.0-Windows.zip    # Windows VST3
+└── DistortionPro-v1.0.0-macOS.zip      # macOS VST3/AU
+```
 
 ### 功能特性
 
@@ -212,6 +290,12 @@ DistortionPro 是一款专业的 VST3/AU 音频插件，提供四种独特的失
   - 用户预设保存/加载
   - 预设导入/导出（JSON 格式）
   - A/B 对比功能
+
+---
+
+*卡夫卡的春树用心打造*
+
+---
 
 ### 环境要求
 
@@ -267,6 +351,8 @@ cmake --build .
 C:\Program Files\VST3\
 ```
 
+或从 [Releases](https://github.com/KafukaTree/DistortionPro-audio-plugin/releases) 下载安装
+
 #### macOS VST3/AU
 
 ```bash
@@ -283,12 +369,21 @@ cp -r build/DistortionPro.component ~/Library/Audio/Plug-Ins/Components/
 cp -r build/DistortionPro.vst3 ~/.vst3/
 ```
 
+---
+
+*由卡夫卡的春树制作*
+
+---
+
 ### 目录结构
 
 ```
 DistortionPro/
 ├── CMakeLists.txt
 ├── README.md
+├── LICENSE
+├── releases/                    # 预编译 VST3 插件
+│   └── DistortionPro-*.zip
 ├── src/
 │   ├── dsp/
 │   │   ├── DistortionAlgorithms.h/cpp    # 核心失真算法
@@ -307,6 +402,12 @@ DistortionPro/
 │       └── PresetManager.h/cpp           # 预设管理
 └── presets/                              # 工厂预设文件
 ```
+
+---
+
+*卡夫卡的春树 - DistortionPro 音频插件*
+
+---
 
 ### 参数说明
 
@@ -339,6 +440,12 @@ DistortionPro/
 }
 ```
 
+---
+
+*卡夫卡的春树 - 开发者与创作者*
+
+---
+
 ### 开源协议
 
 MIT License - 详见 LICENSE 文件。
@@ -347,3 +454,8 @@ MIT License - 详见 LICENSE 文件。
 
 - 基于 [JUCE Framework](https://juce.com/) 构建
 - VST3 SDK 已包含在 JUCE 中
+- **开发者**：卡夫卡的春树 (KafukaTree)
+
+---
+
+*DistortionPro - 由卡夫卡的春树创建*
